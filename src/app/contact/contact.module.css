@@ -1,0 +1,221 @@
+/* ---------- General Page Styling ---------- */
+.contact_page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #000000, #0a0a0a, #1a1a1a);
+  color: #e8c766; /* soft gold for general text */
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+  background-image: url("/images/luxury-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+}
+
+/* ---------- Glass Overlay ---------- */
+.contact_page::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(8px);
+  z-index: 0;
+}
+
+/* ---------- Header ---------- */
+.contact_header {
+  text-align: center;
+  margin-bottom: 60px;
+  z-index: 1;
+  position: relative;
+}
+
+.contact_header h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffc30f;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 0 0 25px rgba(255, 195, 15, 0.4);
+}
+
+.contact_header p {
+  color: #e0c874; /* warm gold tone for subtitle */
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+/* ---------- Main Container ---------- */
+.contact_container {
+  max-width: 1100px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  z-index: 1;
+  position: relative;
+}
+
+/* ---------- Contact Info ---------- */
+.contact_info {
+  background: rgba(25, 25, 25, 0.9);
+  border: 1px solid rgba(255, 195, 15, 0.25);
+  border-radius: 20px;
+  padding: 40px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 0 25px rgba(255, 195, 15, 0.08);
+  transition: 0.4s ease;
+}
+
+.contact_info:hover {
+  box-shadow: 0 0 35px rgba(255, 195, 15, 0.25);
+  transform: translateY(-4px);
+}
+.status_message{
+  padding: 10px 0px;
+}
+.contact_info h2 {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  color: #ffc30f;
+  border-left: 4px solid #ffc30f;
+  padding-left: 12px;
+}
+
+.contact_info p {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.05rem;
+  color: #d4b547; /* muted gold text */
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+.contact_info p:hover {
+  color: #ffc30f;
+  transform: translateX(5px);
+}
+
+.contact_info p svg {
+  color: #ffc30f;
+  font-size: 1.3rem;
+}
+
+/* ---------- Social Icons ---------- */
+.contact_socials {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.contact_socials a {
+  color: #e6c55b;
+  font-size: 1.6rem;
+  transition: 0.3s;
+}
+
+.contact_socials a:hover {
+  color: #ffc30f;
+  transform: scale(1.15);
+  text-shadow: 0 0 15px rgba(255, 195, 15, 0.7);
+}
+
+/* ---------- Contact Form ---------- */
+.contact_form {
+  background: rgba(25, 25, 25, 0.9);
+  border: 1px solid rgba(255, 195, 15, 0.2);
+  border-radius: 20px;
+  padding: 40px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 0 25px rgba(255, 195, 15, 0.1);
+  transition: 0.4s ease;
+}
+
+.contact_form:hover {
+  box-shadow: 0 0 35px rgba(255, 195, 15, 0.25);
+  transform: translateY(-4px);
+}
+
+.contact_form h2 {
+  font-size: 1.8rem;
+  color: #ffc30f;
+  margin-bottom: 20px;
+  border-left: 4px solid #ffc30f;
+  padding-left: 12px;
+}
+
+/* ---------- Inputs ---------- */
+.contact_form input,
+.contact_form textarea {
+  width: 100%;
+  padding: 14px 16px;
+  margin-top: 15px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 195, 15, 0.25);
+  outline: none;
+  background: rgba(255, 255, 255, 0.05);
+  color: #f2d96b; /* soft gold text inside inputs */
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.contact_form input::placeholder,
+.contact_form textarea::placeholder {
+  color: #bfa646; /* muted golden placeholder */
+}
+
+.contact_form input:focus,
+.contact_form textarea:focus {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: #ffc30f;
+  box-shadow: 0 0 12px rgba(255, 195, 15, 0.5);
+  color: #ffe07a;
+}
+
+.contact_form textarea {
+  resize: none;
+  min-height: 120px;
+}
+
+/* ---------- Submit Button ---------- */
+.contact_form button {
+  width: 100%;
+  margin-top: 25px;
+  background: linear-gradient(to right, #ffc30f, #b8860b);
+  color: #000;
+  border: none;
+  padding: 14px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact_form button:hover {
+  background: linear-gradient(to right, #ffda3d, #ffc30f);
+  transform: translateY(-3px);
+  box-shadow: 0 0 20px rgba(255, 195, 15, 0.6);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 900px) {
+  .contact_container {
+    grid-template-columns: 1fr;
+  }
+
+  .contact_header h1 {
+    font-size: 2.4rem;
+  }
+
+  .contact_info,
+  .contact_form {
+    padding: 30px;
+  }
+}
