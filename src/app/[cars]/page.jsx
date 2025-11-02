@@ -11,7 +11,7 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
 // ✅ Car data
 const carData = {
-  bmw: {
+  "bmw": {
     name: "BMW M5",
     imgs: ["/bmw-m51.jpg", "/bmw-m52.jpg", "/bmw-m53.jpeg"],
     full_name: "BMW M5 (by BMW M GmbH)",
@@ -19,6 +19,24 @@ const carData = {
     price: "USD $119,500",
     engine: " 4.4-liter twin-turbocharged V8",
     details: "The BMW M5 is a high-performance luxury sedan manufactured by BMW M GmbH (Germany). It has been in production since 1985, with the latest model powered by a 4.4 L twin-turbocharged V8 engine producing around 617 hp. The car accelerates from 0–100 km/h in just 3.2 seconds and reaches a top speed of about 305 km/h"
+  },
+  "bmw":{
+     name: "BMW i7",
+    imgs: ["/bmw-i7-2.jpg", "/bmw-i7-3.jpg", "/bmw-i7-4.jpeg"],
+    full_name: "BMW i7",
+    manufacturer: ": BMW (BMW M GmbH performance division)",
+    price: "USD $168,500.",
+    engine: "Fully electric vehicle with BMW eDrive technology with dual motors.",
+    details:"The BMW i7 is a flagship fully-electric luxury sedan that combines spacious comfort, cutting-edge tech, and strong performance. With over 500 hp in its standard dual-motor version and massive luxury-sedan proportions, it offers a refined drive experience and premium features-including advanced charging capability and opulent interior. It signals BMW’s move to electrification in its top-tier sedan segment, competing with other luxury EVs while maintaining the brand’s bespoke luxury pedigree."
+  },
+  "bmw":{
+    name: "BMW M4 Competition",
+    imgs: ["/bmw-m4-2.jpg", "/bmw-m4-5.jpg", "/bmw-m4-3.jpeg"],
+    full_name: "BMW M4 Competition",
+    manufacturer: ": BMW (BMW M GmbH performance division)",
+    price: "USD $80,875",
+    engine: "3.0-litre twin-turbocharged inline-6 petrol (M TwinPower Turbo)",
+    details:"The BMW M4 is a high-performance coupe (also available as convertible) designed to blend everyday usability with track-ready dynamics. Its muscular styling, prominent air intakes and aggressive stance reflect its performance character. The 2025 model receives updates to its digital cockpit (12.3-inch gauge cluster + 14.9-inch infotainment display), iDrive 8.5 system, and enhanced lighting."
   },
   "ferrari": {
     name: "Ferrari 296 GTB",
@@ -38,15 +56,34 @@ const carData = {
     engine: "twin-turbocharged \(3.0\)-liter V6 engine",
     details:"The McLaren Artura is a high-performance hybrid supercar manufactured by McLaren Automotive (UK). It has been in production since 2022 and combines a 3.0 L twin-turbo V6 engine with an electric motor, producing around 671 hp. The car accelerates from 0-100 km/h in just 3.0 seconds and has a top speed of 330 km/h."
   },
-  "toyota supra": {
+  "toyota": {
     name: "Toyota Supra Mk5",
     imgs: ["/supra1.jpg", "/supra2.jpg", "/supra3.jpg"],
     full_name: "Toyota GR Supra (MkV, fifth generation)",
     manufacturer: "Toyota (Japan)",
     price: "USD $49,990",
-    engine: " turbocharged 3.0-liter inline-six (BMW B58)",
+    engine: "turbocharged 3.0-liter inline-six (BMW B58)",
     details: "The Toyota GR Supra (Mk5) is a sports car manufactured by Toyota Motor Corporation, Japan, in collaboration with BMW. It has been in production since 2019 and is powered by a 3.0 L turbocharged inline-6 or 2.0 L turbocharged inline-4 engine. The Supra accelerates from 0–100 km/h in about 3.9 seconds and has a top speed of 250 km/h."
 
+  },
+  "toyota":{
+    name: "Toyota Tundra",
+    imgs: ["/toyota-tundra4.jpg", "/toyota-tundra2.jpg", "/toyota-tundra1.jpg"],
+    full_name: "Toyota Tundra",
+    manufacturer: "Toyota Motor Corporation",
+    price: "USD $42,000",
+    engine: "3.4-litre twin-turbocharged V6 (i-FORCE)",
+    details:"The Toyota Tundra is a full-size pickup truck designed for power, durability, and utility. Built on a tough boxed steel frame, it combines impressive towing capability (up to 12,000 lbs) with modern comfort and technology. The latest models feature advanced hybrid powertrains, premium interiors, and off-road-ready trims, making the Tundra a strong competitor among top-tier trucks like the Ford F-150 and RAM 1500."
+
+  },
+  "toyota":{
+     name: "Toyota Land Cruiser",
+    imgs: ["/toyota-land-cruiser2.jpg", "/toyota-land-cruiser3.jpg", "/toyota-land-cruiser4.jpg"],
+    full_name: "Toyota Land Cruiser",
+    manufacturer: "Toyota Motor Corporation",
+    price: "USD $61,470.",
+    engine: "3.5-litre twin-turbo petrol V6",
+    details:"The Toyota Land Cruiser is a full-size, body-on-frame SUV famed for its rugged off-road capability and long-term durability. Recent models blend this go-anywhere robustness with luxury interiors, modern infotainment and advanced safety systems, making them as comfortable on pavement as they are on rough terrain."
   },
   "lamborghini": {
     name:"Lamborghini Revuelto",
@@ -147,6 +184,44 @@ const carData = {
     price:"$122,985 USD",
     engine:"3.8-litre twin-turbocharged V6.",
     details:"The Nissan GT-R combines Japanese precision with supercar-level performance, utilising its all-wheel-drive system and hand-built twin-turbo V6 to deliver thrilling acceleration and handling. With a polished interior and advanced drivetrain tech, it manages daily usability while still being track-ready. Originally introduced as an affordable performance benchmark, it remains a benchmark in its class for drivers seeking power, control and engineering excellence."
+  },
+  "lexus":{
+    name:"Lexus LX 570",
+    imgs:["/lexus-lx-5702.jpg","/lexus-lx-5703.jpg","/lexus-lx-5704.jpg"],
+    full_name:"Lexus LX 570",
+    manufacturer:"Lexus (a luxury-vehicle division of Toyota Motor Corporation)",
+    price:"$88,700 USD",
+    engine:"  5.7 L naturally aspirated V8 (engine code 3UR-FE) for the 2021 LX 570.",
+    details:"The Lexus LX 570 is a full-size luxury SUV built on a body-on-frame architecture, offering rugged off-road capability and premium features. It uses a 5.7-litre V8 producing 383 hp, paired with an 8-speed automatic and full-time all-wheel drive. While acceleration (0-100 km/h in around 7.6 s) isn’t super-fast for its class, the LX 570 shines in durability, luxury comfort, and towing capacity."
+  
+  },
+  "lexus":{
+    name:"Lexus LFA",
+    imgs:["/lexus-lfa2.jpg","/lexus-lfa3.jpg","/lexus-lfa4.jpg"],
+    full_name:"Lexus LFA",
+    manufacturer:"Lexus (luxury division of Toyota Motor Corporation)",
+    price:"$375,000 USD",
+    engine:"4.8-litre naturally aspirated V10 (engine code 1LR-GUE)",
+    details:"The Lexus LFA was produced in a limited run of 500 units between December 2010 and December 2012.It features a carbon-fibre reinforced polymer (CFRP) body and advanced engineering, intended to deliver supercar performance combined with Lexus build quality and exclusivity."
+  
+  },
+  "lexus":{
+     name:"Lexus ES",
+    imgs:["/lexus-es2.jpg","/lexus-es3.jpg","/lexus-es4.jpg"],
+    full_name:"Lexus ES",
+    manufacturer:"Lexus (the luxury-vehicle division of Toyota Motor Corporation)",
+    price:"$43,215 USD",
+    engine:"3.5-litre V6",
+    details:"The Lexus ES is a premium mid-size luxury sedan geared toward comfort, refinement and quietness rather than hardcore sport performance. It features a plush interior, advanced safety technology and smooth ride characteristics. While it has respectable power in the V6 version, its focus remains on upscale everyday usability and reliability over aggressive dynamics."
+  },
+  "range rover":{
+    name:"Range Rover",
+    imgs:["/range-rover2.jpg","/range-rover3.jpg","/range-rover4.jpg"],
+    full_name:"Range Rover (fifth-generation, model code L460)",
+    manufacturer:"Jaguar Land Rover (under the Land Rover brand)",
+    price:"$159,550 USD",
+    engine:"4.4-litre twin-turbo V8 petrol",
+    details:"The Range Rover is the flagship full-size luxury SUV from Land Rover, combining opulent comfort, advanced technology and genuine off-road capability. With its new generation (L460), it offers a choice of powerful engines—including the 4.4 litre twin-turbo V8—and modern features like air suspension, premium interior materials and cutting-edge infotainment."
   }
 };
 

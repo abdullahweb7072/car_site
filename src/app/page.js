@@ -16,9 +16,11 @@ export default function Home() {
 
   const cars = [
     { name: "BMW", iimage: "/bmw-5.avif", model: "BMW M5", power: "727 HP", max_speed: "305 km/h" },
+    { name: "BMW", iimage: "/bmw-i7-1.jpg", model: "BMW i7 M70", power: "650 HP", max_speed: "250 km/h" },
+    { name: "BMW", iimage: "/bmw-m4-1.jpg", model: "BMW M4 Competition", power: "523 HP", max_speed: "290 km/h" },
     { name: "McLaren", iimage: "/mclaren-1.avif", model: "McLaren Artura", power: "671 HP", max_speed: "330 km/h" },
     { name: "Ferrari", iimage: "/ferrari-4.avif", model: "Ferrari 296 GTB", power: "819 HP", max_speed: "330 km/h" },
-    { name: "Toyota Supra", iimage: "/supra-1.jpg", model: "Supra Mk5", power: "382 HP", max_speed: "250 km/h" },
+    { name: "Toyota", iimage: "/supra-1.jpg", model: "Supra Mk5", power: "382 HP", max_speed: "250 km/h" },
     { name: "Lamborghini", iimage: "/lamborghini-1.jpg", model: "Lamborghini Revuelto", power: "1000 HP", max_speed: "350 km/h" },
     { name: "Rolls Royce", iimage: "/rollsroyce-1.jpg", model: "Rolls Royce Phantom", power: "563 HP", max_speed: "250 km/h" },
     { name: "Aston Martin", iimage: "/aston-martin4.jpg", model: "Aston Martin DB12", power: "671 HP", max_speed: "325 km/h" },
@@ -30,6 +32,12 @@ export default function Home() {
     { name: "Audi", iimage: "/audi-a6-abt3.jpg", model: "Audi A6 ABT", power: "408 HP", max_speed: "250 km/h" },
     { name: "Dodge", iimage: "/dodge1.jpg", model: "Dodge Challenger", power: "717 HP", max_speed: "327 km/h" },
     { name: "Nissan", iimage: "/nissan-gtr1.jpg", model: "Nissan GT-R", power: "565 HP", max_speed: "327 km/h" },
+    { name: "Lexus", iimage: "/lexus-lx-5701.jpg", model: "Lexus LX 570", power: "383 HP", max_speed: "220 km/h" },
+    { name: "Lexus", iimage: "/lexus-lfa1.jpg", model: "Lexus LFA", power: "553 HP", max_speed: "325 km/h" },
+    { name: "Lexus", iimage: "/lexus-es1.jpg", model: "Lexus ES", power: "302 HP", max_speed: "209 km/h" },
+    { name: "Toyota", iimage: "/toyota-tundra5.jpg", model: "Toyota Tundra", power: "389 HP", max_speed: "175 km/h" },
+    { name: "Toyota", iimage: "/toyota-land-cruiser4.jpg", model: "Toyota Land Cruiser", power: "409 HP", max_speed: "215 km/h" },
+    { name: "Range Rover", iimage: "/range-rover1.jpg", model: "Range Rover (fifth-generation, model code L460)", power: "607 HP", max_speed: "250 km/h" },
   ];
 
   const filteredCars = cars.filter(
