@@ -23,7 +23,7 @@
   padding: 20px;
   margin: 20px 0;
   font-size: 2rem;
-  word-break: break-word; /* Prevent overflow */
+  word-break: break-word; 
 }
 
 .info_imgs {

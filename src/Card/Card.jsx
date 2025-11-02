@@ -25,7 +25,7 @@ const Card = ({name,iimage,model,power,max_speed}) => {
             <h4>Max-Speed : {max_speed}</h4>
             </div>
             <div className="info-btn-wrapper">
-               <Link href={`/${encodeURIComponent(name.toLowerCase())}`} className="info-btn">View More</Link>
+               <Link href={`/${encodeURIComponent(model.toLowerCase())}`} className="info-btn">View More</Link>
             </div>
        
        
