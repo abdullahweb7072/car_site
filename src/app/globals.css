@@ -1,5 +1,5 @@
 :root {
-  --background: #000814;
+  
   --foreground: #ffc300;
 }
 
@@ -39,7 +39,7 @@ a {
 }
 /* ---------- Base Styles ---------- */
 .header-div {
-  background-color: #001d3dbb;
+  background-color: #001d3d;
   color: #ffc300;
   display: flex;
   justify-content: space-between;
@@ -184,6 +184,7 @@ a {
 
 .main-card .imgs{
   width: 300px;
+  height: 200px;
   border-radius: 20px;
   overflow: hidden;
 }
