@@ -37,7 +37,7 @@ export default function Home() {
     { name: "Lexus", iimage: "/lexus-es1.jpg", model: "Lexus ES", power: "302 HP", max_speed: "209 km/h" },
     { name: "Toyota", iimage: "/toyota-tundra5.jpg", model: "Toyota Tundra", power: "389 HP", max_speed: "175 km/h" },
     { name: "Toyota", iimage: "/toyota-land-cruiser4.jpg", model: "Toyota Land Cruiser", power: "409 HP", max_speed: "215 km/h" },
-    { name: "Range Rover", iimage: "/range-rover1.jpg", model: "Range Rover (fifth-generation, model code L460)", power: "607 HP", max_speed: "250 km/h" },
+    { name: "Range Rover", iimage: "/range-rover1.jpg", model: "Range Rover", power: "607 HP", max_speed: "250 km/h" },
   ];
 
   const filteredCars = cars.filter(

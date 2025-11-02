@@ -160,20 +160,8 @@
   }
 }
 
-/* 🌙 Dark Mode (Auto Adjust) */
-@media (prefers-color-scheme: dark) {
-  .page {
-    --background: #000814;
-    --foreground: #000;
-    --text-primary: #ffc300;
-    --text-secondary: #ffd60a;
-    background-color: var(--background);
-  }
 
-  .typewriter {
-    border-right: 2px solid var(--text-primary);
-  }
-}
+
 
 /* 🔍 SEARCH BAR */
 .search_container {
