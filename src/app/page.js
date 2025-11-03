@@ -31,7 +31,7 @@ export default function Home() {
     { name: "Ford", iimage: "/mustang-gt1.jpg", model: "Ford Mustang GT", power: "480 HP", max_speed: "249 km/h" },
     { name: "Audi", iimage: "/audi-a6-abt3.jpg", model: "Audi A6 ABT", power: "408 HP", max_speed: "250 km/h" },
     { name: "Dodge", iimage: "/dodge1.jpg", model: "Dodge Challenger", power: "717 HP", max_speed: "327 km/h" },
-    { name: "Nissan", iimage: "/nissan-gtr1.jpg", model: "Nissan GT-R", power: "565 HP", max_speed: "327 km/h" },
+    { name: "Nissan", iimage: "/nissan-gtr1.jpg", model: "Nissan GT R", power: "565 HP", max_speed: "327 km/h" },
     { name: "Lexus", iimage: "/lexus-lx-5701.jpg", model: "Lexus LX 570", power: "383 HP", max_speed: "220 km/h" },
     { name: "Lexus", iimage: "/lexus-lfa1.jpg", model: "Lexus LFA", power: "553 HP", max_speed: "325 km/h" },
     { name: "Lexus", iimage: "/lexus-es1.jpg", model: "Lexus ES", power: "302 HP", max_speed: "209 km/h" },

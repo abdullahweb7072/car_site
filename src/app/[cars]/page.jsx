@@ -176,10 +176,10 @@ const carData = {
     engine:"6.2-L supercharged V8",
     details:"The Challenger blends retro-muscle styling with modern performance and tech — it offers a wide range of trims from V6 economy options to full-blown V8 supercharged beasts. It’s rear-wheel-drive, two-door, seats five, and is one of the last true large American coupes carrying on the traditional muscle-car formula. With the 6.2-L supercharged V8 version you’re getting serious straight-line performance, while the base models maintain more everyday usability."
   },
-  "nissan gt-r":{
-      name:"Nissan GT-R",
+  "nissan gt r":{
+      name:"Nissan GT R",
     imgs:["/nissan-gtr1.jpg","/nissan-gtr2.jpg","/nissan-gtr3.jpg"],
-    full_name:"Nissan GT-R",
+    full_name:"Nissan GT R",
     manufacturer:"Nissan",
     price:"$122,985 USD",
     engine:"3.8-litre twin-turbocharged V6.",
@@ -271,7 +271,7 @@ export default function CarPage() {
   src={src}
   width={600} // still needed for Next.js Image optimization
   height={350}
-  style={{ width: "100%", height: "30%", objectFit: "cover", objectPosition: "center" }}
+  style={{ width: "100%", max_height: "30%", objectFit: "cover", objectPosition: "center" }}
   alt={`${car.name} image ${index + 1}`}
 />
 
