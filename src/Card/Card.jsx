@@ -15,7 +15,8 @@ const Card = ({name,iimage,model,power,max_speed}) => {
             style={{objectFit:'cover',objectPosition:'center'}}
            width={300}
            height={200}
-            alt="Bmw-m5"
+            alt={model}
+            priority
           
             />
             </div>

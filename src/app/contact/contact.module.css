@@ -1,4 +1,4 @@
-/* ---------- General Page Styling ---------- */
+
 .contact_page {
   min-height: 100vh;
   background: linear-gradient(to right,#000814,#001233);
@@ -17,7 +17,7 @@
   overflow: hidden;
 }
 
-/* ---------- Glass Overlay ---------- */
+
 .contact_page::before {
   content: "";
   position: absolute;
@@ -27,7 +27,7 @@
   z-index: 0;
 }
 
-/* ---------- Header ---------- */
+
 .contact_header {
   text-align: center;
   margin-bottom: 60px;
@@ -45,12 +45,12 @@
 }
 
 .contact_header p {
-  color: #e0c874; /* warm gold tone for subtitle */
+  color: #e0c874; 
   font-size: 1.1rem;
   margin-top: 10px;
 }
 
-/* ---------- Main Container ---------- */
+
 .contact_container {
   max-width: 1100px;
   width: 100%;
@@ -62,7 +62,7 @@
   position: relative;
 }
 
-/* ---------- Contact Info ---------- */
+
 .contact_info {
   background: rgba(25, 25, 25, 0.9);
   border: 1px solid rgba(255, 195, 15, 0.25);
@@ -93,7 +93,7 @@
   align-items: center;
   gap: 12px;
   font-size: 1.05rem;
-  color: #d4b547; /* muted gold text */
+  color: #d4b547; 
   margin-bottom: 15px;
   transition: 0.3s;
 }
@@ -108,7 +108,7 @@
   font-size: 1.3rem;
 }
 
-/* ---------- Social Icons ---------- */
+
 .contact_socials {
   display: flex;
   gap: 20px;
@@ -127,7 +127,7 @@
   text-shadow: 0 0 15px rgba(255, 195, 15, 0.7);
 }
 
-/* ---------- Contact Form ---------- */
+
 .contact_form {
   background: rgba(25, 25, 25, 0.9);
   border: 1px solid rgba(255, 195, 15, 0.2);

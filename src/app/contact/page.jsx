@@ -93,10 +93,10 @@ export default function Contact() {
               <FaPhoneAlt /> +92 309 7072082
             </p>
             <p>
-              <FaEnvelope /> contact@luxuryrides.com
+              <FaEnvelope /> abdullah.web7072@gmail.com
             </p>
             <p>
-              <FaMapMarkerAlt /> Beverly Hills, Los Angeles, CA
+              <FaMapMarkerAlt /> Multan ,Punjab, Pakistan.
             </p>
           </div>
 
